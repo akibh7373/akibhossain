@@ -1,5 +1,6 @@
 
 import React from 'react';
+import './App.css';
 import styled from 'styled-components';
 import { FaHome } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
@@ -16,11 +17,11 @@ const Home = () => {
                     <UserTitle>@vanillacraftz</UserTitle>
                 </Profile>
                 <Menu>
-                    <MenuTitle><a href='https://www.instagram.com/vanillacode737/' ><FaHome style={{margin: '0 5px -2px 0', fontSize: '24px'}}/>official website</a></MenuTitle>
-                    <MenuTitle><a href='https://github.com/vanillacode737' ><FaGithub style={{margin: '0 5px -2px 0', fontSize: '24px'}}/>Github</a></MenuTitle>
-                    <MenuTitle><a href='https://twitter.com/vanillacode737' ><FaTwitter style={{margin: '0 5px -2px 0', fontSize: '24px'}}/>Twitter</a></MenuTitle>
-                    <MenuTitle><a href='https://www.instagram.com/vanillacode737/' ><FaInstagram style={{margin: '0 5px -2px 0', fontSize: '24px'}}/>Instagram</a></MenuTitle>
-                    <MenuTitle><a href='https://www.linkedin.com/in/vanillacode737/' ><FaLinkedin style={{margin: '0 5px -2px 0', fontSize: '24px'}}/>Linkedin</a></MenuTitle>
+                    <MenuTitle><a href='https://www.instagram.com/vanillacode737/' ><FaHome className='iconStyle'/>official website</a></MenuTitle>
+                    <MenuTitle><a href='https://github.com/vanillacode737' ><FaGithub className='iconStyle'/>Github</a></MenuTitle>
+                    <MenuTitle><a href='https://twitter.com/vanillacode737' ><FaTwitter className='iconStyle'/>Twitter</a></MenuTitle>
+                    <MenuTitle><a href='https://www.instagram.com/vanillacode737/' ><FaInstagram className='iconStyle'/>Instagram</a></MenuTitle>
+                    <MenuTitle><a href='https://www.linkedin.com/in/vanillacode737/' ><FaLinkedin className='iconStyle'/>Linkedin</a></MenuTitle>
                 </Menu>
             </Main>
         </Container>
@@ -72,12 +73,12 @@ const Img = styled.img`
     margin-bottom: 10px;
 `
 const UserTitle = styled.p`
-    display: inline-block;
-    color: #fff;
-    background-color: #000;
-    padding: 5px 6px;
-    border: 1px solid #fff;
-    border-radius: 20px;
+display: inline-block;
+padding: 5px 6px;
+border: 1px solid #fff;
+border-radius: 20px;
+background-color: #000;
+color: #fff;
 `
 
 const Menu = styled.div``
@@ -89,4 +90,8 @@ const MenuTitle = styled.div`
     padding: 20px 100px;
     font-size: 22px;
     text-transform: capitalize;
+    @media(max-width: 768px) {
+        padding: 8px 30px;
+        font-size: 17px;
+    }
 `
