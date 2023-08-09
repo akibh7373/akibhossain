@@ -9,7 +9,7 @@ const Home = () => {
             <Container>
                 <Main>
                     <Profile>
-                        <Img src='/images/profile1.jpg' />
+                        <Img src='/images/profile.jpeg' />
                         <UserTitle>@vanillacraftzz</UserTitle>
                     </Profile>
                     <Menu>
