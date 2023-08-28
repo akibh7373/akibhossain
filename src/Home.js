@@ -77,7 +77,9 @@ const UserTitle = styled.p`
     background-color: #000;
     color: #fff;
 `
+
 const Menu = styled.div``
+
 const MenuTitle = styled.div`
     margin-bottom: 20px;
     padding: 20px 100px;
