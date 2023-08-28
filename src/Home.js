@@ -10,10 +10,10 @@ const Home = () => {
                 <Main>
                     <Profile>
                         <Img src='/images/profile.jpeg' />
-                        <UserTitle>@akibhossin</UserTitle>
+                        <UserTitle>@akibhossain</UserTitle>
                     </Profile>
                     <Menu>
-                         {/* <MenuTitle><a href='https://www.instagram.com/vanillacraftzz/' ><FaHome className='iconStyle' />official website</a></MenuTitle> */}
+                        {/* <MenuTitle><a href='https://www.instagram.com/vanillacraftzz/' ><FaHome className='iconStyle' />official website</a></MenuTitle> */}
                         <MenuTitle><a href='https://github.com/vanillacraftzz' ><FaGithub className='iconStyle' />Github</a></MenuTitle>
                         <MenuTitle><a href='https://twitter.com/vanillacraftzz' ><FaTwitter className='iconStyle' />Twitter</a></MenuTitle>
                         <MenuTitle><a href='https://www.instagram.com/vanillacraftzz/' ><FaInstagram className='iconStyle' />Instagram</a></MenuTitle>
