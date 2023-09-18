@@ -10,7 +10,7 @@ const Home = () => {
                 <Main>
                     <Profile>
                         <Img src='/images/profile.jpeg' />
-                        <UserTitle>@vanillacraftzz</UserTitle>
+                        <UserTitle>@akibh7373</UserTitle>
                     </Profile>
                     <Menu>
                         {/* <MenuTitle><a href='https://www.instagram.com/vanillacraftzz/' ><FaHome className='iconStyle' />official website</a></MenuTitle> */}
