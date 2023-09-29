@@ -16,8 +16,8 @@ const Home = () => {
                         {/* <MenuTitle><a href='https://www.instagram.com/vanillacraftzz/' ><FaHome className='iconStyle' />official website</a></MenuTitle> */}
                         <MenuTitle><a href='https://github.com/akibh7373' ><FaGithub className='iconStyle' />Github</a></MenuTitle>
                         <MenuTitle><a href='https://twitter.com/akibh7373' ><FaTwitter className='iconStyle' />Twitter</a></MenuTitle>
-                        <MenuTitle><a href='https://www.instagram.com/akibh7373/' ><FaInstagram className='iconStyle' />Instagram</a></MenuTitle>
-                        <MenuTitle><a href='https://www.linkedin.com/in/akibbh7373/' ><FaLinkedin className='iconStyle' />Linkedin</a></MenuTitle>
+                        <MenuTitle><a href='https://www.instagram.com/akibh7373' ><FaInstagram className='iconStyle' />Instagram</a></MenuTitle>
+                        <MenuTitle><a href='https://www.linkedin.com/in/akibbh7373' ><FaLinkedin className='iconStyle' />Linkedin</a></MenuTitle>
                     </Menu>
                 </Main>
             </Container>
