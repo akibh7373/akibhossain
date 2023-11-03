@@ -13,7 +13,7 @@ const Home = () => {
                         <UserTitle>@akibh7373</UserTitle>
                     </Profile>
                     <Menu>
-                        <MenuTitle><a href='https://www.akibhossin.vercel.app/' ><FaHome className='iconStyle' />official website</a></MenuTitle>
+                        <MenuTitle><a href='https://akibhossin.vercel.app/' ><FaHome className='iconStyle' />official website</a></MenuTitle>
                         <MenuTitle><a href='https://github.com/akibh7373' ><FaGithub className='iconStyle' />Github</a></MenuTitle>
                         <MenuTitle><a href='https://twitter.com/akibh7373' ><FaTwitter className='iconStyle' />Twitter</a></MenuTitle>
                         <MenuTitle><a href='https://www.instagram.com/akibh7373' ><FaInstagram className='iconStyle' />Instagram</a></MenuTitle>
